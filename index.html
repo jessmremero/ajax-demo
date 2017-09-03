@@ -27,7 +27,7 @@ xhr.open('get','/page' + page + '.json')
 xhr.onload = function(){
 page+=1
 
-let object = JSON.parse(xhr.responseText)//字符串变数组//
+let object = JSON.parse(xhr.responseText)
 if (object.hasnextpage === false){
 btn.disabled = true
 }
