@@ -39,5 +39,4 @@ forEach()方法正在操作的数组。
 thisArg可选
 可选参数。当执行回调 函数时用作this的值(参考对象)。
 返回值是undefined
-- promise
-[promise--阮一峰](http://javascript.ruanyifeng.com/advanced/promise.html)
+
